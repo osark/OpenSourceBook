@@ -26,6 +26,7 @@ To bootstrap Drupal 8, we need Drush 8, which isn't stable by the time of writin
 If you are installing Drush for the first time, use the following command:
 ```bash
 export COMPOSER_PROCESS_TIMEOUT=600 # default 300
+sudo composer self-update # Make sure that composer is updated
 composer global require --prefere-dist drush/drush:dev-master
 ```
 
