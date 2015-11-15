@@ -27,6 +27,7 @@ If you are installing Drush for the first time, use the following command:
 ```bash
 export COMPOSER_PROCESS_TIMEOUT=600 # default 300
 sudo composer self-update # Make sure that composer is updated
+composer global update # Update all global packages to prevent conflict in dependency versions
 composer global require --prefer-dist drush/drush:dev-master
 ```
 
